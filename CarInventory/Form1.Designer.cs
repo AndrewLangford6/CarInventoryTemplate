@@ -80,12 +80,11 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.BackColor = System.Drawing.Color.White;
+            this.outputLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.outputLabel.Location = new System.Drawing.Point(37, 192);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(300, 138);
             this.outputLabel.TabIndex = 5;
-            this.outputLabel.Text = "label1";
             // 
             // label1
             // 
@@ -127,6 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(379, 366);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
